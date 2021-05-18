@@ -1,5 +1,5 @@
 # Web-Development
 
-[1. Google Clone](Google-Clone)/
+[1. Google Clone](Google-Clone)
 
 This is just a clone of Google Home Page Frontend.

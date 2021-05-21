@@ -28,6 +28,16 @@ body
   .nav
   {
     margin-top: 30px;
+
+  }
+  .logo-search input[type="text"]
+  {
+    min-width: 0;
+  }
+  .logo-search img
+  {
+    width: 250px;
+    height: auto;
   }
 }
 

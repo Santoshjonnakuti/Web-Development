@@ -1,9 +1,12 @@
-function googleSearch()
-{
+function googleSearch() {
   const search = document.getElementsByName("SearchBar")[0].value;
-  window.location.href = "https://www.google.com/search?q="+ search;
+  if (const) {
+    window.location.href = "https://www.google.com/search?q="+ search;
+  }
+  else {
+    window.location.href = "https://www.google.com/";
+  }
 }
-function googleFeelingLucky()
-{
+function googleFeelingLucky() {
   window.location.href = "https://www.google.com/doodles";
 }

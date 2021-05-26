@@ -164,6 +164,10 @@ body
 {
   box-shadow: 0 0 0 1px #bdbdbd;
 }
+.button-container input[type="submit"]:focus
+{
+  border:1px solid #34c3eb;
+}
 .page-footer
 {
   display: flex;

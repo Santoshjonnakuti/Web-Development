@@ -50,17 +50,37 @@ body
     width: 30vw;
   }
 }
-.nav img
+.google-icon-container
+{
+  /* background: red; */
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.google-icon-container:hover
+{
+  box-shadow: 0 0 5px 2px #70757a;
+}
+.nav img[name="user-icon"]
 {
   width: 32;
   height: 32;
-  padding: 4px;
+  padding: 0px;
   border-radius: 50%;
   margin: 10px;
 }
-.nav img:hover
+.nav img[name="google-apps-icon"]
 {
-  box-shadow: 0 0 5px 2px #cfcfcf;
+  width: 26;
+  height: 26;
+  border-radius: 50%;
+}
+.nav img[name="user-icon"]:hover
+{
+  box-shadow: 0 0 5px 2px #70757a;
 }
 .nav a
 {

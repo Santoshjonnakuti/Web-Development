@@ -123,7 +123,8 @@ body
   min-width: 200px;
   font-family: arial, sans-serif;
 }
-.logo-search input[type="text"]:hover
+.logo-search input[type="text"]:hover,
+.logo-search input[type="text"]:focus
 {
   box-shadow: 0 0 10px 1px #cfcfcf
 }
@@ -139,6 +140,18 @@ body
   position: absolute;
   top: 37%;
   left: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.voice-search-icon
+{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 37%;
+  right: 10px;
   text-align: center;
   align-items: center;
   justify-content: center;
